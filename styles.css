@@ -24,3 +24,20 @@ body {
   border: 1px solid black;
   padding: 4px 8px;
 }
+
+.products thead,
+.products tfoot {
+  background-color: aliceblue;
+}
+
+.products tbody td:hover {
+  background-color: orangered;
+}
+
+.products tbody tr:nth-child(odd) {
+  background-color: bisque;
+}
+
+.products tbody tr:nth-child(even) {
+  background-color: beige;
+}
